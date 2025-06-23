@@ -1,0 +1,19 @@
+# derived from ant-finances-analysis-env 
+# for Fidelity Investments processing and visualization
+name: ant-investment-analysis-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - openpyxl
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - pip
+  - pip:
+      - xlsxwriter
