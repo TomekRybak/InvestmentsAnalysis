@@ -1,0 +1,26 @@
+# 2025.12.03 
+# merged from ant-investment-analysis-env used for IRAstatementAnalyst andTechnicalIndicatorPlotter
+# and enhanced for quantitative investment analysis with OpenBB from my-quant-openbb-matpolt-pandas-stack
+# developed initially studying Python for Algorithmic Trading by Jason Strimpel
+name: tmk-quant-investment-analyst-stack
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - pandas
+  - numpy
+  - seaborn
+  - openpyxl
+  - matplotlib
+  - jinja2        # ← Add this line for style 
+  - pip
+  - pip:
+    - openbb[all]
+    - pandas_datareader
+    - xlsxwriter
+
+
